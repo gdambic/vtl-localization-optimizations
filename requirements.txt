@@ -1,0 +1,11 @@
+# Analysis (exact versions used to produce all tables and figures in the paper)
+numpy==2.4.2
+scipy==1.17.0
+pandas==3.0.0
+matplotlib==3.10.8
+
+# Simulator (GUI) — additionally required only for running simulator/simulator.py
+shapely>=2.0
+PyQt6>=6.6
+pyqtgraph>=0.13
+foronoi>=1.0
