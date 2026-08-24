@@ -1,0 +1,2 @@
+PercentageAnchor,NumberOfNodes,Algorithm,VoronoiMode,k_neighbors,AverageEstimationError_mean,AverageEstimationError_std,AverageEstimationError_count,Pe_num_mean,Pe_num_std,Pe_num_count,VoronoiProc_mean,VoronoiProc_std,VoronoiProc_count,IntersectionCalc_mean,IntersectionCalc_std,IntersectionCalc_count,TotalTime_mean,TotalTime_std,TotalTime_count
+28,140,Grid Scanning,Global,5,0.247215,0.011967,5,98.018,2.32602,5,3.130698,0.240976,5,5.625807,0.757174,5,9.384239,1.011532,5

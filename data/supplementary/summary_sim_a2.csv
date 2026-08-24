@@ -1,0 +1,8 @@
+PercentageAnchor,NumberOfNodes,Algorithm,VoronoiMode,k_neighbors,AverageEstimationError_mean,AverageEstimationError_std,AverageEstimationError_count,Pe_num_mean,Pe_num_std,Pe_num_count,VoronoiProc_mean,VoronoiProc_std,VoronoiProc_count,IntersectionCalc_mean,IntersectionCalc_std,IntersectionCalc_count,TotalTime_mean,TotalTime_std,TotalTime_count
+10,100,Grid Scanning,Global,5,0.54071,0.019001,5,62.222,5.722331,5,0.874789,0.176364,5,7.814207,1.4689,5,10.496048,1.730609,5
+20,100,Grid Scanning,Global,5,0.402543,0.015989,5,83.5,4.626689,5,1.443218,0.077595,5,6.712908,0.588885,5,9.249862,0.707305,5
+30,100,Grid Scanning,Global,5,0.325308,0.023052,5,90.572,6.89278,5,2.227747,1.017824,5,5.91816,2.762942,5,8.88654,3.939742,5
+40,100,Grid Scanning,Global,5,0.267085,0.029597,5,97.0,2.47263,5,2.978076,1.122184,5,4.760284,1.367629,5,8.297721,2.619001,5
+50,100,Grid Scanning,Global,5,0.22533,0.016067,5,98.0,2.44949,5,2.305256,0.26493,5,3.176033,0.43344,5,5.820655,0.688945,5
+60,100,Grid Scanning,Global,5,0.187836,0.017866,5,100.0,0.0,5,1.725606,0.385999,5,1.770634,0.495674,5,3.687746,0.902206,5
+70,100,Grid Scanning,Global,5,0.158917,0.01884,5,100.0,0.0,5,1.231852,0.246543,5,0.971565,0.234954,5,2.311996,0.489916,5
