@@ -1,0 +1,25 @@
+space,comparison,tercile,n_pairs,mean_rel_change_pct,dz,p_raw,sign_neg,p_holm
+200,"Voronoi time, local k=12 vs global (grid)",small (60-360),48,-46.5,-0.949,3.81e-12,44,3.81e-12
+200,"Voronoi time, local k=12 vs global (grid)",medium (380-680),48,-79.38,-2.197,7.11e-15,48,2.13e-14
+200,"Voronoi time, local k=12 vs global (grid)",large (700-1000),48,-88.01,-3.099,7.11e-15,48,2.13e-14
+200,"Ea, local k=12 vs global (grid)",small (60-360),48,0.14,0.455,3.09e-03,6,3.09e-03
+200,"Ea, local k=12 vs global (grid)",medium (380-680),48,0.84,1.697,1.61e-09,0,4.82e-09
+200,"Ea, local k=12 vs global (grid)",large (700-1000),48,1.16,2.675,1.61e-09,0,4.82e-09
+200,"Intersection time, sweep vs grid (global)",small (60-360),48,-14.05,-1.975,7.11e-15,48,2.13e-14
+200,"Intersection time, sweep vs grid (global)",medium (380-680),48,-7.72,-1.281,3.06e-13,46,6.11e-13
+200,"Intersection time, sweep vs grid (global)",large (700-1000),48,-0.63,-0.253,1.02e-01,27,1.02e-01
+200,"Total time, sweep+local k=12 vs grid+global",small (60-360),48,-14.4,-0.682,7.37e-05,34,7.37e-05
+200,"Total time, sweep+local k=12 vs grid+global",medium (380-680),48,-46.81,-1.639,1.42e-14,47,2.84e-14
+200,"Total time, sweep+local k=12 vs grid+global",large (700-1000),48,-66.58,-2.323,7.11e-15,48,2.13e-14
+400,"Voronoi time, local k=12 vs global (grid)",small (60-360),48,-49.7,-0.911,9.73e-13,43,9.73e-13
+400,"Voronoi time, local k=12 vs global (grid)",medium (380-680),48,-80.76,-1.918,7.11e-15,48,2.13e-14
+400,"Voronoi time, local k=12 vs global (grid)",large (700-1000),48,-87.54,-3.278,7.11e-15,48,2.13e-14
+400,"Ea, local k=12 vs global (grid)",small (60-360),48,0.01,0.404,7.06e-03,0,7.06e-03
+400,"Ea, local k=12 vs global (grid)",medium (380-680),48,0.13,1.19,2.35e-09,3,7.04e-09
+400,"Ea, local k=12 vs global (grid)",large (700-1000),48,0.27,1.883,4.12e-09,3,8.23e-09
+400,"Intersection time, sweep vs grid (global)",small (60-360),48,-13.65,-1.007,3.18e-12,45,6.35e-12
+400,"Intersection time, sweep vs grid (global)",medium (380-680),48,-21.65,-2.118,7.11e-15,48,2.13e-14
+400,"Intersection time, sweep vs grid (global)",large (700-1000),48,-16.9,-1.48,6.42e-12,44,6.42e-12
+400,"Total time, sweep+local k=12 vs grid+global",small (60-360),48,-21.28,-0.809,6.70e-07,36,6.70e-07
+400,"Total time, sweep+local k=12 vs grid+global",medium (380-680),48,-44.69,-1.779,7.11e-15,48,2.13e-14
+400,"Total time, sweep+local k=12 vs grid+global",large (700-1000),48,-57.62,-2.666,7.11e-15,48,2.13e-14

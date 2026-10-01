@@ -1,11 +1,14 @@
-# Analysis (exact versions used to produce all tables and figures in the paper)
-numpy==2.4.2
-scipy==1.17.0
-pandas==3.0.0
-matplotlib==3.10.8
+# Environment used for all simulations and analyses reported in the paper
+# (CPython 3.13.2; see Section 2.2 of the paper). With these versions all
+# reported numbers reproduce exactly; the only deviation vs. older pins is in
+# Shapiro-Wilk p-values at the 8th significant digit (not reported, no effect).
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.1
+shapely==2.1.2
+foronoi==1.0.3
 
-# Simulator (GUI) — additionally required only for running simulator/simulator.py
-shapely>=2.0
+# Simulator (GUI/headless) additionally requires:
 PyQt6>=6.6
 pyqtgraph>=0.13
-foronoi>=1.0

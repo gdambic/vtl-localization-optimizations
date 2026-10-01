@@ -514,8 +514,21 @@ class MainWindow(QMainWindow):
                     # [[np.float64(59.86584841970366), np.float64(35.67533266935893)], ...]
                     group_v = [[a[0].x, a[0].y] for a in group]
                     
-                    # Najbliži čvor
-                    closest_node = min([n for n in group if n[1] <= detection_radius_meters], key=lambda item: item[1])
+                    # Najjace sidro = najblizi cvor (idealni RSSI). Opcionalno (headless
+                    # SIM-D): log-normalni shadowing na path-loss ekvivalent 10*eta*log10(d),
+                    # iz ZASEBNOG RNG-a (self.rssi_noise_rng) da se ne poremeti glavni
+                    # np.random tok (razmjestaj/grupiranje ostaju upareni).
+                    _candidates = [n for n in group if n[1] <= detection_radius_meters]
+                    _sigma = getattr(self, "rssi_noise_sigma", 0.0)
+                    if _sigma > 0.0:
+                        _eta = getattr(self, "path_loss_exponent", 3.0)
+                        _noise = self.rssi_noise_rng.normal(0.0, _sigma, size=len(_candidates))
+                        closest_node = min(
+                            zip(_candidates, _noise),
+                            key=lambda cn: 10.0 * _eta * math.log10(max(cn[0][1], 1e-9)) + cn[1],
+                        )[0]
+                    else:
+                        closest_node = min(_candidates, key=lambda item: item[1])
                     # print(f"\t\tClosest node: {NodeList.stringify([closest_node])}")
 
                     simulation_size = self.param_inputs["Simulation size in meters"].value()
